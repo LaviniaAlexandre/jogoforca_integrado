@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#9BCEF2"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -35,6 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Jogo da Forca"
+            android:textColor="#BE9BF2"
             android:textSize="34sp"
             android:textStyle="bold" />
     </LinearLayout>
@@ -65,13 +67,18 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="#BE9BF2"
             android:text="Iniciar"
+            android:textColor="#000000"
             android:textSize="24sp" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Configurações" />
+            android:backgroundTint="#BE9BF2"
+            android:text="Configurações"
+            android:textColor="#000000"
+            android:textSize="20sp" />
     </LinearLayout>
 </LinearLayout>
